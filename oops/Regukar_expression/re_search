@@ -1,0 +1,6 @@
+import re
+pattern="sona"
+if re.search(pattern,"yes he loves sona."):
+    print("matched")
+else:
+    print("not match")    

@@ -1,0 +1,8 @@
+import re
+pattern="python"
+
+if re.match(pattern,"python hi oi oho"):
+    print("match")
+else:
+    print("not match")    
+   
